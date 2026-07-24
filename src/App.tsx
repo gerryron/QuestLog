@@ -129,7 +129,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/QuestLog">
       <AchievementWatcher />
       <WelcomeDialog />
       <ConfettiEffect />
